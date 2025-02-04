@@ -1,3 +1,38 @@
-html{
+body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.container {
+    width: 75%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+}
+
+.leftContainer {
+    background-image: url(https://images.unsplash.com/photo-1618173745201-8e3bf8978acc?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 30%;
+    background-size: cover;
+    display: flex;
+}
+
+.headerContainer{
+    background-color: black;
+    width: 100%;
+    opacity: 50%;
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 125px;
+    color: white;
+    font-size: 2rem;
+}
+
+.headerContainer img{
+    max-height: 100%;
 }
