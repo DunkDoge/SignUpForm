@@ -84,3 +84,17 @@ input {
 input:invalid {
     border: 1px solid red;
 }
+
+.submit-container{
+    height: 40%;
+    padding: 3rem;
+}
+
+button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 25%;
+    background-color: yellow;
+    font-size: 1rem;
+    border-radius: 10px;
+}
